@@ -10,6 +10,9 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  background: url(../image/ukraine_2.jpg) center / cover no-repeat;
+  min-height: 100vh;
+  padding: 20px;
 }
 
 #search-box {
@@ -17,4 +20,37 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border: 3px solid rgba(255, 255, 0, 0.5);
+  border-radius: 3px;
+  background-color: rgba(30, 144, 255, 0.3);
+}
+
+#search-box:focus {
+  outline: none;
+  border: 3px solid rgba(255, 255, 0, 0.9);
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+img {
+  margin-right: 10px;
+}
+
+li {
+  font-size: 18px;
+  font-weight: 500;
 }
