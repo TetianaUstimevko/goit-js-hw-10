@@ -54,3 +54,7 @@ li {
   font-size: 18px;
   font-weight: 500;
 }
+input::placeholder {
+  color: blue;
+  font-size: 15px;
+}
